@@ -1,0 +1,501 @@
+City,State,Cost_of_Living,Median_Income,Poverty_Rate,Employment_Rate,Long_Commute,Housing_Costs,Housing_Problems,Uninsured,Poor_Mental_Health,Physical_Inactivity,Violent_Crime,Natural_Hazard_Risk,Flood_Risk,Heat_Risk,Tornado_Risk
+Duluth,MN,measured,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Rochester,MN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Cedar Rapids,IA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Sioux Falls,SD,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Cheyenne,WY,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Overland Park,KS,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Fishers,IN,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Rapid City,SD,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Lincoln,NE,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Billings,MT,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+St. George,UT,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Boise City,ID,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Des Moines,IA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Appleton,WI,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Waukesha,WI,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Green Bay,WI,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Waterloo,IA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Meridian,ID,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Bloomington,IL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Layton,UT,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Topeka,KS,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+O'Fallon,MO,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Sioux City,IA,measured,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,inland (0),measured,measured
+Las Cruces,NM,measured,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,inland (0),measured,measured
+Orem,UT,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Virginia Beach,VA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Lansing,MI,measured,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,inland (0),measured,measured
+Omaha,NE,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Milwaukee,WI,measured,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Provo,UT,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Fort Wayne,IN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Lynchburg,VA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Warner Robins,GA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Loveland,CO,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Ogden,UT,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Columbia,MO,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+San Angelo,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Abilene,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Hoover,AL,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Huntsville,AL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Olathe,KS,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Fargo,ND,measured,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,inland (0),measured,measured
+Fayetteville,AR,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Lexington,KY,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Bloomington,IN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Burlington,VT,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Lafayette,LA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Racine,WI,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Springdale,AR,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Salt Lake City,UT,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Charleston,WV,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Madison,WI,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Decatur,IL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Jacksonville,NC,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Roanoke,VA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+West Jordan,UT,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Longmont,CO,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Lawrence,KS,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Davenport,IA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Kalamazoo,MI,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Kennewick,WA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Fort Collins,CO,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Grand Rapids,MI,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Albuquerque,NM,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Springfield,MO,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Raleigh,NC,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Santa Fe,NM,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Fort Smith,AR,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Missoula,MT,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Warwick,RI,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Sandy,UT,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Troy,MI,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Bloomington,MN,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Canton,OH,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Kansas City,MO,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Portland,ME,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Vancouver,WA,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Salem,OR,measured,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,inland (0),measured,measured
+Spokane,WA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Wichita,KS,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Albany,NY,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Lawton,OK,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Rochester Hills,MI,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+St. Joseph,MO,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Lake Charles,LA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Evansville,IN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Champaign,IL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Nampa,ID,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Ann Arbor,MI,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Farmington Hills,MI,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+College Station,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Springfield,IL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Naperville,IL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Chesapeake,VA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Thornton,CO,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,inland (0),measured,measured
+Killeen,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Iowa City,IA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Louisville,KY,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Amarillo,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Muncie,IN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Tulsa,OK,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Clarksville,TN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Asheville,NC,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Colorado Springs,CO,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Tyler,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Jonesboro,AR,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Arlington Heights,IL,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Wichita Falls,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+West Valley City,UT,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Kenosha,WI,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Livonia,MI,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Seattle,WA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Frisco,TX,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Greensboro,NC,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Wyoming,MI,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Cary,NC,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Norman,OK,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Minneapolis,MN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Plymouth,MN,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Wilmington,NC,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Edmond,OK,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Broken Arrow,OK,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Allen,TX,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Pueblo,CO,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Little Rock,AR,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Oklahoma City,OK,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Nashua,NH,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Cranston,RI,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Anchorage,AK,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Sparks,NV,county proxy,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,inland (0),measured,measured
+Lafayette,IN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Palatine,IL,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Rochester,NY,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Manchester,NH,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Round Rock,TX,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Dayton,OH,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Honolulu,HI,measured,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Arvada,CO,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Cincinnati,OH,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Shreveport,LA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Suffolk,VA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Montgomery,AL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Greenville,NC,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Gainesville,FL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Kenner,LA,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Scottsdale,AZ,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Westminster,CO,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Bend,OR,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Longview,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Mount Pleasant,SC,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Boulder,CO,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Melbourne,FL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Bethlehem,PA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Rio Rancho,NM,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,inland (0),measured,measured
+Eugene,OR,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Peoria,IL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Concord,NC,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Beaverton,OR,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Waco,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Bellingham,WA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Charleston,SC,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Durham,NC,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Youngstown,OH,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Sugar Land,TX,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Bolingbrook,IL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Midland,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Columbia,SC,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Hillsboro,OR,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+El Paso,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Alexandria,VA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+South Bend,IN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Reno,NV,measured,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,inland (0),measured,measured
+Fayetteville,NC,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Schenectady,NY,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Lee's Summit,MO,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Winston-Salem,NC,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Buffalo,NY,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Charlotte,NC,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Chattanooga,TN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Knoxville,TN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Scranton,PA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Pittsburgh,PA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Columbus,OH,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Allentown,PA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Erie,PA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Chandler,AZ,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+St. Paul,MN,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Yakima,WA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Greeley,CO,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Hampton,VA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Toledo,OH,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Carmel,IN,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Syracuse,NY,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Tallahassee,FL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Chico,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Peoria,AZ,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Spokane Valley,WA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Jacksonville,FL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Akron,OH,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Brooklyn Park,MN,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Austin,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Macon,GA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Schaumburg,IL,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+High Point,NC,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Lubbock,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Athens,GA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Bryan,TX,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Johns Creek,GA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Aurora,IL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Palm Coast,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Centennial,CO,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,inland (0),measured,measured
+Newport News,VA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Tempe,AZ,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Lewisville,TX,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Murfreesboro,TN,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Hartford,CT,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Lakeland,FL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+New Britain,CT,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Bellevue,WA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Palm Bay,FL,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Phoenix,AZ,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Indianapolis,IN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Baton Rouge,LA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Augusta,GA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Columbus,GA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Medford,OR,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Reading,PA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Gulfport,MS,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+McKinney,TX,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+League City,TX,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Denton,TX,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Mobile,AL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Missouri City,TX,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Thousand Oaks,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Mesa,AZ,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Tuscaloosa,AL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Redding,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Folsom,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Savannah,GA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Lakewood,CO,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Gilbert,AZ,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Stamford,CT,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Roseville,CA,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,inland (0),measured,measured
+Port St. Lucie,FL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Beaumont,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Tucson,AZ,measured,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,inland (0),measured,measured
+Garland,TX,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Birmingham,AL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Turlock,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Parma,OH,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+New Haven,CT,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Elgin,IL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Norwalk,CT,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Worcester,MA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Simi Valley,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Flint,MI,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+St. Petersburg,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Glendale,AZ,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Elk Grove,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Corpus Christi,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Cape Coral,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Avondale,AZ,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Odessa,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Rockford,IL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Sandy Springs,GA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Tampa,FL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Cleveland,OH,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Deltona,FL,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+San Buenaventura Ventura,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Joliet,IL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Largo,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Norfolk,VA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Arlington,TX,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Plano,TX,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Rock Hill,SC,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+San Antonio,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Gastonia,NC,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Denver,CO,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Danbury,CT,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Surprise,AZ,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Jackson,MS,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Springfield,MA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Richmond,VA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Waukegan,IL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+North Charleston,SC,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Citrus Heights,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Santa Maria,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Newton,MA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Richardson,TX,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Providence,RI,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Aurora,CO,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,inland (0),measured,measured
+Warren,MI,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Portland,OR,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Modesto,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Auburn,WA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Carlsbad,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Kent,WA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Wilmington,DE,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Portsmouth,VA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Atlanta,GA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Clovis,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Waterbury,CT,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Hammond,IN,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Santa Rosa,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Trenton,NJ,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Pawtucket,RI,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Kansas City,KS,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Visalia,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+St. Louis,MO,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Memphis,TN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+McAllen,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Laredo,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Sterling Heights,MI,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Dallas,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Nashville,TN,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+New Orleans,LA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Boynton Beach,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+New Bedford,MA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Roswell,GA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Newport Beach,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Bridgeport,CT,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Renton,WA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Orlando,FL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Independence,MO,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+West Palm Beach,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Fairfield,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Vallejo,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Merced,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Clifton,NJ,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Oxnard,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Napa,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Fort Worth,TX,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Brownsville,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Berkeley,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Las Vegas,NV,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Clearwater,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Pearland,TX,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Houston,TX,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Gary,IN,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Irvine,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Santa Barbara,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+San Ramon,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Plantation,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Albany,GA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Yuma,AZ,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Temecula,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Sacramento,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Mission Viejo,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Pleasanton,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Federal Way,WA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Bakersfield,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Henderson,NV,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Apple Valley,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Evanston,IL,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Gresham,OR,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Fremont,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+San Marcos,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Irving,TX,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Chino Hills,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Vacaville,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Lake Forest,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Oceanside,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Baltimore,MD,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Santa Clara,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Coral Springs,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Manteca,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Davie,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Pembroke Pines,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Everett,WA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Baytown,TX,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Fall River,MA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Grand Prairie,TX,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+San Diego,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Chula Vista,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Milpitas,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Lowell,MA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Boca Raton,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Tacoma,WA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Mountain View,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Carrollton,TX,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Indio,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Mesquite,TX,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Boston,MA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Oakland,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Sunnyvale,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Livermore,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Union City,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Fort Lauderdale,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Vista,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Rancho Cucamonga,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Tustin,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Fullerton,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Tracy,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Miami Beach,FL,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Orange,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Murrieta,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Sunrise,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Fresno,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Antioch,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Redlands,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Washington,DC,measured,measured (county),measured,measured,imputed,measured,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Southfield,MI,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Costa Mesa,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Hollywood,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+El Cajon,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Alameda,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Riverside,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Deerfield Beach,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Buena Park,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Huntington Beach,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Chicago,IL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Westminster,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Menifee,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Brockton,MA,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+San Leandro,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+San Mateo,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Corona,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Stockton,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Pompano Beach,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Garden Grove,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Anaheim,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Hayward,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+North Las Vegas,NV,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Westland,MI,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Miramar,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Redwood City,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Concord,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Mission,TX,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Upland,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Edinburg,TX,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Pasadena,TX,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Escondido,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Fontana,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Lauderhill,FL,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Paterson,NJ,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Miami Gardens,FL,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Pomona,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Ontario,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Moreno Valley,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Dearborn,MI,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Chino,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Victorville,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Redondo Beach,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Rialto,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Hesperia,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Richmond,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Elizabeth,NJ,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Santa Monica,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Passaic,NJ,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Pharr,TX,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Detroit,MI,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Santa Ana,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Perris,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Hialeah,FL,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Miami,FL,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Lawrence,MA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Cicero,IL,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Cambridge,MA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Burbank,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Pasadena,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Hemet,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+Santa Clarita,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Lakewood,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Torrance,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Glendale,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Alhambra,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Somerville,MA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+San Jose,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Philadelphia,PA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Jersey City,NJ,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Carson,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Whittier,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Salinas,CA,measured,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Daly City,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Downey,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Long Beach,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+San Bernardino,CA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,inland (0),measured,measured
+West Covina,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Bellflower,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Norwalk,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Quincy,MA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Hawthorne,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Lancaster,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Baldwin Park,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Inglewood,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Palmdale,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Lynn,MA,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+San Francisco,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+El Monte,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Los Angeles,CA,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Newark,NJ,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Compton,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Lynwood,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+South Gate,CA,county proxy,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+New York,NY,measured,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+Union City,NJ,imputed,measured (county),measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured,measured
+New Rochelle,NY,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Yonkers,NY,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Mount Vernon,NY,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured
+Camden,NJ,imputed,measured (county),imputed,imputed,imputed,imputed,imputed,measured,measured,measured,imputed,measured,measured,measured,measured

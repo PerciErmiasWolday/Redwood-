@@ -1,0 +1,108 @@
+{
+  "_readme": "Wording for the questionnaire. You can edit labels and help text freely. Keep the ids: the app uses them to decide what each answer does (see docs/HOW_SCORING_WORKS.md).",
+  "steps": [
+    {
+      "id": "about",
+      "title": "Who's making the move?",
+      "questions": [
+        {"id": "household", "type": "single", "label": "Who would be relocating with you?",
+         "help": "This shapes the notes we show you. It never changes a score.",
+         "options": [
+           {"id": "just_me", "label": "Just me"},
+           {"id": "partner", "label": "My partner"},
+           {"id": "partner_children", "label": "My partner and children"},
+           {"id": "children", "label": "My children"},
+           {"id": "other_family", "label": "Other family members"},
+           {"id": "not_sure", "label": "I'm not sure yet"},
+           {"id": "prefer_not", "label": "Prefer not to say"}
+         ]},
+        {"id": "age", "type": "single", "optional": true, "label": "Which age group are you in?",
+         "help": "Optional. Each age group on our team built its own research model. We only use yours if you skip ranking your priorities.",
+         "options": [
+           {"id": "20-30", "label": "20–30"},
+           {"id": "30-40", "label": "30–40"},
+           {"id": "40-50", "label": "40–50"},
+           {"id": "50-60", "label": "50–60"},
+           {"id": "skip", "label": "Skip"}
+         ]}
+      ]
+    },
+    {
+      "id": "home",
+      "title": "Your next home",
+      "questions": [
+        {"id": "home", "type": "single", "label": "What are you hoping for in your next home?",
+         "help": "We'll point you to the housing measures that matter for your plan. No bonus points either way.",
+         "options": [
+           {"id": "rent", "label": "An affordable rental"},
+           {"id": "buy_first", "label": "Buying my first home"},
+           {"id": "larger", "label": "A larger home with more space"},
+           {"id": "settle", "label": "Somewhere I can settle long-term"},
+           {"id": "flexible", "label": "I'm flexible"}
+         ]}
+      ]
+    },
+    {
+      "id": "priorities",
+      "title": "What matters most",
+      "questions": [
+        {"id": "ranked", "type": "rank", "label": "Pick your top three, in order.",
+         "help": "Tap the most important first. Tap again to remove."},
+        {"id": "strength", "type": "strength", "label": "How much does your first choice outweigh the rest?"},
+        {"id": "climate", "type": "climate", "label": "What weather would you enjoy?",
+         "help": "You ranked weather, so tell us what good weather means to you."}
+      ]
+    },
+    {
+      "id": "tradeoffs",
+      "title": "Dealbreakers and trade-offs",
+      "questions": [
+        {"id": "concern", "type": "single", "label": "What would be hardest for you to compromise on?",
+         "help": "We'll check this for all five cities and show you the numbers. Nothing gets removed.",
+         "options": [
+           {"id": "costs", "label": "Housing or living expenses beyond my budget"},
+           {"id": "jobs", "label": "Limited employment opportunities"},
+           {"id": "crime", "label": "High crime"},
+           {"id": "healthcare", "label": "Difficulty accessing healthcare"},
+           {"id": "commute", "label": "Long commutes"},
+           {"id": "disasters", "label": "Severe weather or natural disasters"},
+           {"id": "none", "label": "None of these is an absolute dealbreaker"}
+         ]},
+        {"id": "tradeoff", "type": "single", "label": "Which trade-off would you be most willing to make?",
+         "options": [
+           {"id": "pay_more_career", "label": "Pay more for stronger career opportunities"},
+           {"id": "commute_for_housing", "label": "Accept a longer commute for more affordable housing"},
+           {"id": "pay_more_lifestyle", "label": "Pay more to live somewhere that fits my lifestyle"},
+           {"id": "fewer_options_lower_cost", "label": "Have fewer entertainment options in exchange for lower expenses"},
+           {"id": "avoid", "label": "I'd rather avoid major compromises"},
+           {"id": "not_sure", "label": "Not sure yet"}
+         ]}
+      ]
+    },
+    {
+      "id": "belonging",
+      "title": "Feeling at home",
+      "questions": [
+        {"id": "feelHome", "type": "single", "label": "What would make a new city feel like home?",
+         "options": [
+           {"id": "events", "label": "Restaurants, entertainment and community events"},
+           {"id": "outdoors", "label": "Parks, trails and outdoor activities"},
+           {"id": "family", "label": "Schools and family activities"},
+           {"id": "quiet", "label": "Quiet neighborhoods and more personal space"},
+           {"id": "everything", "label": "A little bit of everything"},
+           {"id": "figuring", "label": "I'm still figuring that out"}
+         ]},
+        {"id": "needs", "type": "multi", "label": "Will anyone moving with you need any of these nearby?",
+         "help": "Pick any that apply.",
+         "options": [
+           {"id": "partner_job", "label": "A partner or family member will need a job"},
+           {"id": "schools", "label": "School or childcare options"},
+           {"id": "healthcare", "label": "Particular healthcare services"},
+           {"id": "support", "label": "Accessibility or family-support services"},
+           {"id": "none", "label": "None of these", "exclusive": true},
+           {"id": "prefer_not", "label": "Prefer not to say", "exclusive": true}
+         ]}
+      ]
+    }
+  ]
+}

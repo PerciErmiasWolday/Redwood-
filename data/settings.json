@@ -1,0 +1,177 @@
+{
+  "app_name": "Redwood Relocation Guide",
+  "headquarters": {"city": "Chicago", "state": "IL", "lat": 41.8781, "lon": -87.6298},
+
+  "offices": 5,
+  "min_miles_between_offices": 40,
+  "exclude_cities": [],
+  "office_override": [],
+  "close_call_points": 1.5,
+
+  "groups": {
+    "20-30": {
+      "label": "Ages 20–30",
+      "file": "data/groups/age_20_30.csv",
+      "score_column": "RankingScore",
+      "weight": 1,
+      "weights_used": {"Average income": 40, "Share of residents in their 20s": 25,
+                       "Social vulnerability (lower is better)": 15, "Cost of living (lower is better)": 15,
+                       "Natural hazard risk (lower is better)": 5}
+    },
+    "30-40": {
+      "label": "Ages 30–40",
+      "file": "data/groups/age_30_40.csv",
+      "score_column": "Overall_Score",
+      "weight": 1,
+      "weights_used": {"Housing costs": 15, "Cost of living": 12, "Employment rate": 12,
+                       "Severe housing problems": 10, "Median household income": 8, "Long commutes": 8,
+                       "Violent crime": 7, "Poverty rate": 5, "Adults without insurance": 5,
+                       "Poor mental health": 5, "Physical inactivity": 5, "Natural hazard risk": 4,
+                       "Coastal flood risk": 2, "Heat-wave risk": 1, "Tornado risk": 1}
+    },
+    "40-50": {
+      "label": "Ages 40–50",
+      "file": "data/groups/age_40_50.csv",
+      "score_column": "weighted_score",
+      "weight": 1,
+      "weights_used": {"Cost of living": 16, "Violent crime": 14, "Housing costs": 13, "Long commutes": 10,
+                       "Natural hazard risk": 8, "Bachelor's degree or higher": 6, "Air pollution (PM2.5)": 6,
+                       "Tax costs": 5, "Recreation employment share": 5, "Median income": 4,
+                       "Life expectancy": 4, "Frequent mental distress": 3, "January temperature (near 40°F)": 2,
+                       "July temperature (near 75°F)": 2, "Adults without insurance": 2}
+    },
+    "50-60": {
+      "label": "Ages 50–60",
+      "file": "data/groups/age_50_60.csv",
+      "score_column": "Score",
+      "weight": 1,
+      "weights_used": {"Cost of living": 12, "Temperature": 12, "Median income": 10, "Overall hazard risk": 10,
+                       "Average income": 8, "Median age (near 55)": 8, "Adults without insurance": 8,
+                       "Routine checkups": 8, "Frequent poor physical health": 8, "Heat-wave risk": 7,
+                       "Hurricane risk": 5, "Coastal flood risk": 4}
+    }
+  },
+
+  "features": {
+    "cost_of_living":      {"label": "Cost of living index", "unit_note": "U.S. average ≈ 100", "group": "30-40", "column": "Cost_of_Living", "better": "lower", "format": "number:1", "good": "lower", "bad": "higher"},
+    "median_income":       {"label": "Median household income (county)", "group": "30-40", "column": "Median_Income", "better": "higher", "format": "usd", "good": "higher", "bad": "lower"},
+    "poverty_rate":        {"label": "Poverty rate", "group": "30-40", "column": "Poverty_Rate", "better": "lower", "format": "percent:1", "good": "lower", "bad": "higher"},
+    "employment_rate":     {"label": "Employment rate", "group": "30-40", "column": "Employment_Rate", "better": "higher", "format": "percent:1", "good": "higher", "bad": "lower"},
+    "long_commute":        {"label": "Workers with a long solo commute", "group": "30-40", "column": "Long_Commute", "better": "lower", "format": "percent:1", "good": "lower", "bad": "higher"},
+    "housing_costs":       {"label": "Housing costs per year (county average)", "group": "30-40", "column": "Housing_Costs", "better": "lower", "format": "usd", "good": "lower", "bad": "higher"},
+    "housing_problems":    {"label": "Households with severe housing problems", "group": "30-40", "column": "Housing_Problems", "better": "lower", "format": "percent:1", "good": "lower", "bad": "higher"},
+    "violent_crime":       {"label": "Violent crimes per 100,000 people", "group": "30-40", "column": "Violent_Crime", "better": "lower", "format": "number:0", "good": "lower", "bad": "higher"},
+    "uninsured":           {"label": "Adults without health insurance", "group": "30-40", "column": "Uninsured", "better": "lower", "format": "percent:1", "good": "lower", "bad": "higher"},
+    "poor_mental_health":  {"label": "Adults reporting poor mental health", "group": "30-40", "column": "Poor_Mental_Health", "better": "lower", "format": "percent:1", "good": "lower", "bad": "higher"},
+    "physical_inactivity": {"label": "Adults with no leisure-time activity", "group": "30-40", "column": "Physical_Inactivity", "better": "lower", "format": "percent:1", "good": "lower", "bad": "higher"},
+    "life_expectancy":     {"label": "Life expectancy", "group": "40-50", "column": "life-expectancy", "better": "higher", "format": "years:1", "good": "higher", "bad": "lower"},
+    "natural_hazard_risk": {"label": "FEMA natural hazard risk score", "unit_note": "0–100", "group": "30-40", "column": "Natural_Hazard_Risk", "better": "lower", "format": "number:0", "good": "lower", "bad": "higher"},
+    "coastal_flood_risk":  {"label": "FEMA coastal flood risk score", "unit_note": "0–100", "group": "30-40", "column": "Flood_Risk", "better": "lower", "format": "number:0", "good": "lower", "bad": "higher"},
+    "heat_wave_risk":      {"label": "FEMA heat-wave risk score", "unit_note": "0–100", "group": "30-40", "column": "Heat_Risk", "better": "lower", "format": "number:0", "good": "lower", "bad": "higher"},
+    "tornado_risk":        {"label": "FEMA tornado risk score", "unit_note": "0–100", "group": "30-40", "column": "Tornado_Risk", "better": "lower", "format": "number:0", "good": "lower", "bad": "higher"},
+    "january_temp":        {"label": "Average January temperature", "group": "40-50", "column": "noaa.temp-jan", "better": "target", "target_from": "winter", "format": "degrees"},
+    "july_temp":           {"label": "Average July temperature", "group": "40-50", "column": "noaa.temp-jul", "better": "target", "target_from": "summer", "format": "degrees"}
+  },
+
+  "categories": [
+    {"id": "financial", "label": "Financial comfort", "blurb": "Keeping everyday expenses manageable.",
+     "color": "#2a6f9e", "color_dark": "#3d82bd",
+     "features": {"cost_of_living": 12, "median_income": 8, "poverty_rate": 5}},
+    {"id": "career", "label": "Career opportunities", "blurb": "Finding work and supporting household income.",
+     "color": "#c98a1c", "color_dark": "#b67b12",
+     "features": {"employment_rate": 12}},
+    {"id": "commute", "label": "Shorter commutes", "blurb": "Spending less time getting to work.",
+     "color": "#1f9a8a", "color_dark": "#119585",
+     "features": {"long_commute": 8}},
+    {"id": "housing", "label": "Housing", "blurb": "Finding affordable, suitable housing.",
+     "color": "#a8432a", "color_dark": "#c4553a",
+     "features": {"housing_costs": 15, "housing_problems": 10}},
+    {"id": "safety", "label": "Personal safety", "blurb": "Living somewhere with lower crime.",
+     "color": "#6a5fb0", "color_dark": "#8579d4",
+     "features": {"violent_crime": 7}},
+    {"id": "health", "label": "Health and well-being", "blurb": "Insurance coverage and healthier living.",
+     "color": "#3f8f4f", "color_dark": "#3f9650",
+     "features": {"uninsured": 5, "poor_mental_health": 5, "physical_inactivity": 5, "life_expectancy": 4}},
+    {"id": "environment", "label": "Environmental safety", "blurb": "Less exposure to natural hazards.",
+     "color": "#d06d9a", "color_dark": "#c8628e",
+     "features": {"natural_hazard_risk": 4, "coastal_flood_risk": 2, "heat_wave_risk": 1, "tornado_risk": 1}},
+    {"id": "weather", "label": "Weather and climate", "blurb": "Winters and summers you'd enjoy.",
+     "color": "#8a9a1c", "color_dark": "#879624",
+     "features": {"january_temp": 2, "july_temp": 2}}
+  ],
+
+  "qualitative": [
+    {"id": "recreation", "label": "Recreation and lifestyle", "blurb": "Things to do, places to go. We describe this for each city instead of scoring it."}
+  ],
+
+  "presets": {
+    "balanced": {"label": "Balanced", "quote": "It's most important, but several other things matter almost as much.", "first": 30, "second": 23, "third": 17, "rest": 30},
+    "strong":   {"label": "Strong preference", "quote": "It's clearly more important than my other priorities.", "first": 40, "second": 25, "third": 15, "rest": 20},
+    "main":     {"label": "Main deciding factor", "quote": "It's the one thing I'm least willing to compromise on.", "first": 50, "second": 25, "third": 15, "rest": 10}
+  },
+
+  "neutral_profile": {
+    "label": "Neutral profile",
+    "note": "No age group and no ranked priorities were given, so all eight measured categories count equally (12.5% each).",
+    "weights": {"financial": 12.5, "career": 12.5, "commute": 12.5, "housing": 12.5, "safety": 12.5, "health": 12.5, "environment": 12.5, "weather": 12.5}
+  },
+
+  "age_profiles": {
+    "20-30": {
+      "label": "Ages 20–30 research profile",
+      "raw": {"financial": 55, "environment": 20},
+      "note": "The 20–30 team weighted average income 40 and cost of living 15 (financial comfort), social vulnerability 15 and hazard risk 5 (environmental safety). Their 25-point 'share of residents in their 20s' has no shared measure, so it is left out and the rest is rescaled to 100."
+    },
+    "30-40": {
+      "label": "Ages 30–40 research profile",
+      "raw": {"financial": 25, "career": 12, "commute": 8, "housing": 25, "safety": 7, "health": 15, "environment": 8},
+      "note": "The 30–40 team's own feature weights, grouped into categories. Nothing is left out."
+    },
+    "40-50": {
+      "label": "Ages 40–50 research profile",
+      "raw": {"financial": 25, "commute": 10, "housing": 13, "safety": 14, "health": 15, "environment": 8, "weather": 4},
+      "note": "The 40–50 team's weights grouped into categories (cost of living, tax and income as financial comfort; PM2.5, life expectancy, mental distress and insurance as health). Bachelor's degrees (6) and recreation jobs (5) have no shared scored measure, so they are left out and the rest is rescaled to 100."
+    },
+    "50-60": {
+      "label": "Ages 50–60 research profile",
+      "raw": {"financial": 30, "health": 24, "environment": 26, "weather": 12},
+      "note": "The 50–60 team's slide weights grouped into categories (cost of living and both income measures as financial comfort; insurance, checkups and physical health as health; the four FEMA risks as environmental safety). Median age (8) has no shared measure, so it is left out and the rest is rescaled to 100."
+    }
+  },
+
+  "climate": {
+    "winter": [
+      {"id": "snowy", "label": "Snowy", "phrase": "snowy winters", "target": 25},
+      {"id": "cool", "label": "Cold, not harsh", "phrase": "cold but not harsh winters", "target": 33},
+      {"id": "mild", "label": "Mild", "phrase": "mild winters", "target": 42},
+      {"id": "warm", "label": "Barely any", "phrase": "barely any winter", "target": 52}
+    ],
+    "summer": [
+      {"id": "cool", "label": "Cool", "phrase": "cool summers", "target": 70},
+      {"id": "warm", "label": "Warm", "phrase": "warm summers", "target": 76},
+      {"id": "hot", "label": "Hot", "phrase": "hot summers", "target": 84}
+    ],
+    "default_winter": 40,
+    "default_summer": 75,
+    "default_note": "No climate preference given, so we use the 40–50 team's targets: 40°F in January and 75°F in July."
+  },
+
+  "concerns": {
+    "costs":      {"label": "Housing or living expenses beyond my budget", "features": ["housing_costs", "cost_of_living"]},
+    "jobs":       {"label": "Limited employment opportunities", "features": ["employment_rate"], "limit": "Employment rate shows how many people who want work have it. It does not count job openings."},
+    "crime":      {"label": "High crime", "features": ["violent_crime"]},
+    "healthcare": {"label": "Difficulty accessing healthcare", "features": ["uninsured"], "limit": "The closest measure we have is the share of adults without insurance. It does not measure how many doctors or hospitals are nearby."},
+    "commute":    {"label": "Long commutes", "features": ["long_commute"], "limit": "This is the share of workers who drive alone for more than 30 minutes, not your commute to the Redwood office."},
+    "disasters":  {"label": "Severe weather or natural disasters", "features": ["natural_hazard_risk", "tornado_risk", "heat_wave_risk"]},
+    "none":       {"label": "None of these is an absolute dealbreaker", "features": []}
+  },
+
+  "source_labels": {
+    "measured": "Measured",
+    "measured (county)": "County value",
+    "county proxy": "Estimated from the county",
+    "imputed": "Estimated (gap filled)",
+    "inland (0)": "Inland, set to 0",
+    "as submitted": "County value, as submitted"
+  }
+}

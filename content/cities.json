@@ -1,0 +1,102 @@
+{
+  "_readme": "City guide for the office cities. Keys are 'City|ST'. Facts must come from a source you can link. Photos load from Wikimedia Commons by file name; fill in credit and license from the file page and set verified to true. A city without an entry still works: the app shows its data and a drawn placeholder instead of a photo.",
+
+  "Fishers|IN": {
+    "summary": "A fast-growing suburb northeast of Indianapolis, built around trails, a reservoir and an outdoor concert series.",
+    "facts": [
+      {"text": "About 99,000 residents in the 2020 census.", "tags": ["size"]},
+      {"text": "The city center is 16 miles northeast of downtown Indianapolis.", "tags": ["location"]},
+      {"text": "25 parks and nature preserves, and more than 131 miles of trails and greenways.", "tags": ["outdoors"]},
+      {"text": "Geist Reservoir is used for fishing and waterskiing.", "tags": ["outdoors"]},
+      {"text": "Symphony on the Prairie is a summer concert series at Conner Prairie.", "tags": ["events"]},
+      {"text": "Public schools are run by Hamilton Southeastern Schools, which serves almost 21,000 students.", "tags": ["family", "schools"]}
+    ],
+    "photo": {
+      "file": "FishersIN_TownHall_2012_cropped.jpg",
+      "alt": "Fishers City Hall",
+      "credit": "",
+      "license": "",
+      "verified": false
+    },
+    "source": {"title": "Fishers, Indiana (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Fishers,_Indiana"}
+  },
+
+  "Overland Park|KS": {
+    "summary": "The largest city in Johnson County, Kansas, south of Kansas City, with a large park system and a 300-acre arboretum.",
+    "facts": [
+      {"text": "About 197,000 residents in the 2020 census, the largest city in Johnson County.", "tags": ["size"]},
+      {"text": "The city center is about 13 miles south-southwest of downtown Kansas City, Missouri.", "tags": ["location"]},
+      {"text": "84 parks covering more than 1,800 acres of park land and open space.", "tags": ["outdoors"]},
+      {"text": "The Overland Park Arboretum and Botanical Gardens covers 300 acres.", "tags": ["outdoors", "family"]},
+      {"text": "Oak Park Mall has nearly 200 stores.", "tags": ["events"]},
+      {"text": "T-Mobile was the city's largest employer in its 2016 report, with 6,300 employees.", "tags": ["jobs"]}
+    ],
+    "photo": {
+      "file": "OP_Skyline.jpg",
+      "alt": "95th Street and Metcalf Avenue at sunset",
+      "credit": "",
+      "license": "",
+      "verified": false
+    },
+    "source": {"title": "Overland Park, Kansas (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Overland_Park,_Kansas"}
+  },
+
+  "Frisco|TX": {
+    "summary": "A Dallas–Fort Worth city known for its pro sports venues, including the Dallas Cowboys' headquarters.",
+    "facts": [
+      {"text": "About 200,500 residents in the 2020 census.", "tags": ["size"]},
+      {"text": "Part of the Dallas–Fort Worth metroplex, about 25 miles from both Dallas Love Field and DFW Airport.", "tags": ["location"]},
+      {"text": "The Star is the Dallas Cowboys' headquarters, with the 12,000-seat Ford Center.", "tags": ["events"]},
+      {"text": "Toyota Stadium (20,500 seats) is home to FC Dallas, and the National Soccer Hall of Fame is here.", "tags": ["events"]},
+      {"text": "The Frisco Athletic Center has about 18,000 sq ft of indoor and 40,000 sq ft of outdoor pools.", "tags": ["family", "outdoors"]},
+      {"text": "Stonebriar Centre is a regional mall with about 165 stores.", "tags": ["events"]}
+    ],
+    "photo": {
+      "file": "Frisco_June_2019_05_(George_A._Purefoy_Municipal_Center_and_Frisco_Square).jpg",
+      "alt": "George A. Purefoy Municipal Center at Frisco Square",
+      "credit": "",
+      "license": "",
+      "verified": false
+    },
+    "source": {"title": "Frisco, Texas (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Frisco,_Texas"}
+  },
+
+  "Naperville|IL": {
+    "summary": "A riverside city in the western Chicago suburbs with a downtown Riverwalk and a large park district.",
+    "facts": [
+      {"text": "About 149,500 residents in the 2020 census, Illinois' fourth-largest city.", "tags": ["size"]},
+      {"text": "About 28 miles southwest of Chicago on the DuPage River, with Metra and Amtrak service.", "tags": ["location"]},
+      {"text": "The Riverwalk runs about 1.75 miles along the West Branch of the DuPage River.", "tags": ["outdoors"]},
+      {"text": "Centennial Beach is a former quarry turned into a swimming beach.", "tags": ["outdoors", "family"]},
+      {"text": "The Naperville Park District manages over 2,400 acres, 136 parks and 70 miles of trails.", "tags": ["outdoors"]}
+    ],
+    "photo": {
+      "file": "Riverwalk_Quarry_Moser_Tower_and_Rotary_Hill.jpg",
+      "alt": "Moser Tower and Rotary Hill over the Riverwalk quarry",
+      "credit": "John D. Buell",
+      "license": "CC BY-SA 2.5",
+      "verified": true
+    },
+    "source": {"title": "Naperville, Illinois (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Naperville,_Illinois"}
+  },
+
+  "Ann Arbor|MI": {
+    "summary": "Home of the University of Michigan, with a walkable downtown and more than 160 city parks.",
+    "facts": [
+      {"text": "About 124,000 residents in the 2020 census, Michigan's fifth-largest city.", "tags": ["size"]},
+      {"text": "Home to the University of Michigan, which employs about 30,000 people.", "tags": ["jobs"]},
+      {"text": "More than 160 city parks.", "tags": ["outdoors"]},
+      {"text": "The Michigan Theater hosts the Ann Arbor Film Festival and the Ann Arbor Symphony.", "tags": ["events"]},
+      {"text": "Ranked first among U.S. cities for booksellers and books sold per person.", "tags": ["events"]},
+      {"text": "Part of the Greater Detroit combined statistical area.", "tags": ["location"]}
+    ],
+    "photo": {
+      "file": "Downtown_Ann_Arbor,_2020-05-05.jpg",
+      "alt": "Downtown Ann Arbor",
+      "credit": "",
+      "license": "",
+      "verified": false
+    },
+    "source": {"title": "Ann Arbor, Michigan (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Ann_Arbor,_Michigan"}
+  }
+}
