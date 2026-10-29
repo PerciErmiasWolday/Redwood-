@@ -50,9 +50,9 @@ test('all 500 cities load with coordinates and every scored feature', () => {
   for (const f of Object.values(ds.features)) assert.equal(f.values.size, 500, f.id);
 });
 
-test('office selection: current five, distance rule respected, 50–60 waits for a Score column', () => {
-  assert.deepEqual(ds.offices.map(o => o.key), ['Overland Park|KS', 'Fishers|IN', 'Frisco|TX', 'Naperville|IL', 'Ann Arbor|MI']);
-  assert.equal(ds.groups.find(g => g.id === '50-60').status, 'missing-score');
+test('office selection: current five from all four groups, distance rule respected', () => {
+  assert.deepEqual(ds.offices.map(o => o.key), ['Overland Park|KS', 'Fishers|IN', 'Naperville|IL', 'Cedar Rapids|IA', 'Appleton|WI']);
+  assert.equal(ds.groups.find(g => g.id === '50-60').status, 'ok');
   for (const a of ds.offices) for (const b of ds.offices) {
     if (a.key === b.key) continue;
     const ca = ds.cities.get(a.key), cb = ds.cities.get(b.key);
@@ -69,12 +69,15 @@ test('offices never change with employee answers', () => {
   }
 });
 
-test('adding a Score column to the 50–60 file adds that group to the average', () => {
-  const lines = read('data/groups/age_50_60.csv').replace(/^﻿/, '').trim().split(/\r?\n/);
-  const patched = [lines[0] + ',Score', ...lines.slice(1).map((l, i) => l + ',' + (90 - i * 0.1).toFixed(2))].join('\n');
-  const d2 = load({}, { '50-60': patched });
-  assert.equal(d2.groups.find(g => g.id === '50-60').status, 'ok');
-  assert.ok(d2.combined.every(r => r.n === 4));
+test('all four groups are averaged; a file without its score column is skipped, not fatal', () => {
+  assert.ok(ds.groups.every(g => g.status === 'ok'));
+  assert.ok(ds.combined.every(r => r.n === 4));
+  const groups = structuredClone(settings.groups);
+  groups['50-60'].score_column = 'No_Such_Column';
+  const d2 = load({ groups });
+  assert.equal(d2.groups.find(g => g.id === '50-60').status, 'missing-score');
+  assert.ok(d2.combined.every(r => r.n === 3));
+  assert.equal(d2.offices.length, 5);
 });
 
 test('a missing file is skipped, not fatal; office_override pins the list', () => {
@@ -161,9 +164,9 @@ test('changing priorities recalculates the order', () => {
 test('climate targets change weather scores and nothing else', () => {
   const a = E.rankOffices(ds, { ranked: ['weather', 'career', 'safety'], strength: 'main', winter: 'snowy' });
   const b = E.rankOffices(ds, { ranked: ['weather', 'career', 'safety'], strength: 'main', winter: 'warm' });
-  const frisco = r => r.results.find(x => x.key === 'Frisco|TX');
-  assert.ok(frisco(b).byCat.weather > frisco(a).byCat.weather);
-  close(frisco(a).byCat.career, frisco(b).byCat.career);
+  const nap = r => r.results.find(x => x.key === 'Naperville|IL');
+  assert.ok(nap(a).byCat.weather > nap(b).byCat.weather);   // cold winters suit the snow lover
+  close(nap(a).byCat.career, nap(b).byCat.career);
 });
 
 test('age-group baselines and the neutral profile are disclosed and sum to 100', () => {
@@ -204,7 +207,9 @@ test('very different fictional employees get sensible, different results', () =>
     assert.ok(r.results[0].reasons.length >= 1, name);
     for (const x of r.results) assert.ok(x.total >= 0 && x.total <= 100);
   }
-  assert.equal(tops['warm-weather lover'], 'Frisco|TX');
+  assert.ok(new Set(Object.values(tops)).size >= 2);
+  assert.equal(tops['safety and health'], 'Fishers|IN');
+  assert.equal(tops['warm-weather lover'], 'Overland Park|KS');
 });
 
 test('the evidence package for the AI carries the real scores and limits', () => {

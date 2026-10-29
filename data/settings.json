@@ -43,7 +43,7 @@
     "50-60": {
       "label": "Ages 50–60",
       "file": "data/groups/age_50_60.csv",
-      "score_column": "Score",
+      "score_column": "Balanced_Executive_Score",
       "weight": 1,
       "weights_used": {"Cost of living": 12, "Temperature": 12, "Median income": 10, "Overall hazard risk": 10,
                        "Average income": 8, "Median age (near 55)": 8, "Adults without insurance": 8,
