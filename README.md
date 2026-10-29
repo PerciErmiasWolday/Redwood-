@@ -9,7 +9,6 @@ ranks them for each employee from a short questionnaire, with the numbers behind
   opens a conversation with its recommendation, written from all of their answers, and keeps the
   back-and-forth going. It explains the results; it can't change them.
 - **The cities:** a guide to each office city with photos, facts and key numbers.
-- **How we chose:** how the team picked the five offices, and how answers become weights.
 
 Plain HTML, CSS and JavaScript. No build step and no packages to install.
 

@@ -39,8 +39,7 @@ Run `node --test tests/*.test.js`. 30 checks pass.
 - Both instruction versions forbid re-ranking and invented facts.
 
 **In a browser** (Chromium, 1280 px and 390 px wide, light and dark): every step clicked through,
-review, results, the strength switch reordering the list, the math tables, city popovers, The cities
-and How we chose. No script errors and no sideways scrolling. With photos blocked, the drawn state
+review, results, the strength switch reordering the list, the math tables, city popovers and The cities. No script errors and no sideways scrolling. With photos blocked, the drawn state
 maps appear instead.
 
 **Chat, end to end** (local dev server pointed at a stand-in for OpenAI): the full questionnaire leads

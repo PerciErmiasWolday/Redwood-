@@ -192,7 +192,7 @@
 
   function tab() {
     const h = (location.hash || '#fit').slice(1).split('/')[0];
-    return ['fit', 'cities', 'how'].includes(h) ? h : 'fit';
+    return ['fit', 'cities'].includes(h) ? h : 'fit';
   }
 
   function render(scrollTop) {
@@ -205,7 +205,6 @@
 
     let html;
     if (t === 'cities') html = viewCities();
-    else if (t === 'how') html = viewHow();
     else if (state.view === 'step') html = viewStep();
     else if (state.view === 'review') html = viewReview();
     else if (state.view === 'results') html = viewResults();
@@ -541,7 +540,6 @@
         <div class="section__head"><h2 class="section__title">None of these feel right?</h2></div>
         <div class="nofit">
           <div class="nofit__item"><h3>Change what you ranked</h3><p>Your answers are kept, so you can adjust one thing and compare.</p><button class="linkbtn" data-action="goto" data-v="2" data-fid="nofit-rank">Change my top three</button></div>
-          <div class="nofit__item"><h3>See how the five were picked</h3><p>The office cities came from four age-group studies of 500 cities.</p><a href="#how">How we chose</a></div>
           <div class="nofit__item"><h3>Talk it through with HR</h3><p>Copy a summary of your answers and results to share with your HR partner.</p><button class="linkbtn" data-action="copy" data-fid="copy">Copy my summary</button><span class="small muted" data-copy-status aria-live="polite"></span></div>
         </div>
       </section>
@@ -1045,7 +1043,7 @@
             ${kv('employment_rate')}${kv('violent_crime', 'Violent crimes per 100,000')}
             ${kv('january_temp', 'January average')}${kv('july_temp', 'July average')}
           </div>
-          ${g && g.source ? `<p class="citysec__src">City facts: <a href="${esc(g.source.url)}" target="_blank" rel="noopener">${esc(g.source.title)}</a>. Numbers: team datasets (see How we chose).</p>` : ''}
+          ${g && g.source ? `<p class="citysec__src">City facts: <a href="${esc(g.source.url)}" target="_blank" rel="noopener">${esc(g.source.title)}</a>. Numbers: team datasets.</p>` : ''}
         </div>
       </section>`;
     }).join('');
@@ -1056,54 +1054,6 @@
       </div>${secs}`;
   }
   function safeRank() { try { return state.rank || computeRank(); } catch (e) { return null; } }
-
-  // ================================================================ how we chose
-
-  function viewHow() {
-    const ds = state.ds, s = S();
-    const groupsRows = ds.groups.map(g => `<div class="status__row${g.status === 'ok' ? '' : ' is-off'}"><span class="status__dot"></span><span><strong>${esc(g.label)}</strong>: ${g.status === 'ok' ? `${g.scores.size} cities scored (${esc(s.groups[g.id].score_column)})` : esc(g.message.replace(/^[^:]+: /, ''))}</span></div>`).join('');
-    const offices = new Set(ds.offices.map(o => o.key));
-    const skipped = new Map(ds.skipped.map(x => [x.key, x.reason]));
-    const lastOffice = Math.max(...ds.offices.map(o => o.rank || 0));
-    const top = ds.combined.slice(0, Math.max(10, lastOffice + 2));
-    const active = ds.groups.filter(g => g.status === 'ok');
-    const tableRows = top.map(r => `<tr class="${offices.has(r.key) ? 'is-office' : skipped.has(r.key) ? 'is-skipped' : ''}">
-      <td class="n">${r.rank}</td><td>${offices.has(r.key) ? cityRef(r.key, `${r.city}, ${r.state}`) : esc(`${r.city}, ${r.state}`)}</td>
-      ${active.map(g => `<td class="n">${r.byGroup[g.id] != null ? r.byGroup[g.id].toFixed(1) : '–'}</td>`).join('')}
-      <td class="n">${r.avg.toFixed(2)}</td><td>${offices.has(r.key) ? 'Office' : skipped.has(r.key) ? `Skipped: ${esc(skipped.get(r.key))}` : ''}</td></tr>`).join('');
-    const presets = Object.values(s.presets).map(p => `<tr><td>${esc(p.label)}</td><td>${p.first}</td><td>${p.second}</td><td>${p.third}</td><td>${p.rest}</td></tr>`).join('');
-    const ex = E.categoryWeights(s, { ranked: ['housing', 'financial', 'safety'], strength: 'strong' }, ds);
-    const exF = E.featureWeights(s, ex.weights, ds);
-    return `<div class="how">
-      <div>
-        <h1 class="page__title">How we chose</h1>
-        <p class="lede" style="margin-top:16px;max-width:52ch">Two separate decisions: which five cities get offices (the team's), and which of those five fits you (yours).</p>
-        <ol class="steps">
-          <li><h3>Four teams each ranked all 500 cities</h3>
-            <p>Each age group picked its own measures and weights from public data on the 500 largest U.S. cities: costs, income, jobs, crime, health, commutes, hazards and climate.</p>
-            <div class="status" style="margin-top:12px">${groupsRows}</div></li>
-          <li><h3>We averaged the scores, every group counting the same</h3>
-            <p>A city's team score is the plain average of the age-group scores it has. ${ds.groups.some(g => g.status !== 'ok') ? 'A group whose file has no score column yet is left out until it does; the app adds it automatically.' : ''}</p></li>
-          <li><h3>One office per metro area</h3>
-            <p>Going down the averaged list, we skip any city within ${s.min_miles_between_offices} miles of an office we've already picked, so the five offices reach five different areas.</p>
-            <div class="tablewrap"><table class="datatable"><thead><tr><th class="n">#</th><th>City</th>${active.map(g => `<th class="n">${esc(g.label.replace('Ages ', ''))}</th>`).join('')}<th class="n">Average</th><th></th></tr></thead><tbody>${tableRows}</tbody></table></div></li>
-          <li><h3>Your answers put the five in your order</h3>
-            <p>You rank your top three of eight measured categories and say how much the first one counts. That sets each category's share of 100. Inside a category, the share is split across its measures in the proportions our team used. Each measure is scored 0–100 against all 500 cities, and the city's score is the weighted sum.</p>
-            <p>Example (Strong preference, Housing first): Housing gets 40%, split into housing costs ${pct(exF.housing_costs)}% and housing problems ${pct(exF.housing_problems)}% (the team's 15 : 10).</p>
-            <p>Everything else you tell us (who's moving, your home plans, dealbreakers, trade-offs, what feels like home) shapes the notes you see, never the score. Recreation and school quality aren't in our data, so we describe them instead of scoring them.</p></li>
-          <li><h3>What the scores can't tell you</h3>
-            <p>Scores compare cities with each other under the weights you chose; a higher score means a closer match to your answers, not a better place to live. Most measures are county values applied to a city, and some are estimates (marked in each city's math). We have no data on actual rents or home prices, school quality, job openings or neighborhood feel.</p></li>
-        </ol>
-      </div>
-      <aside>
-        <div class="aside-card"><h3>The three strength settings</h3>
-          <p class="small muted">Shares of 100 for your first, second and third picks; the rest is split evenly across the other five categories. These are design choices we made, not research findings.</p>
-          <table class="presets"><thead><tr><th>Setting</th><th>1st</th><th>2nd</th><th>3rd</th><th>Rest</th></tr></thead><tbody>${presets}</tbody></table></div>
-        <div class="aside-card"><h3>Data sources</h3>
-          <p class="small">CDC 500 Cities (2019); county health, climate and labor data from the JsonOfCounties collection; FEMA National Risk Index; AdvisorSmith cost of living index; Census county income (QuickFacts via CORGIS); Kaggle U.S. household income (20–30 and 50–60 files); city coordinates from CDC 500 Cities. City guides from Wikipedia; photos from Wikimedia Commons.</p></div>
-      </aside>
-    </div>`;
-  }
 
   // ================================================================ popover
 
